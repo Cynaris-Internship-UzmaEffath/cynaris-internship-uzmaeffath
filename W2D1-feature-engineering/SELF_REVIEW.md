@@ -1,0 +1,21 @@
+# W2D1 Self-Review Checklist
+
+- [x] Dataset loaded successfully
+- [x] Missing values checked
+- [x] LabelEncoder applied
+- [x] OneHotEncoder applied
+- [x] OrdinalEncoder applied
+- [x] StandardScaler applied
+- [x] MinMaxScaler applied
+- [x] RobustScaler applied
+- [x] Distribution plots created
+- [x] SelectKBest applied
+- [x] Feature leakage considered
+- [x] README documentation completed
+- [x] Output evidence saved
+- [x] Code tested successfully
+- [x] Git branch created
+- [x] First commit completed
+- [ ] CIA code review completed
+- [ ] Second commit completed
+- [ ] Pull Request created
