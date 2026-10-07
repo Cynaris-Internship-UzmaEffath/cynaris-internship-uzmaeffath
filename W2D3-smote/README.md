@@ -14,3 +14,6 @@
 - Pandas
 - Scikit-learn
 - imbalanced-learn
+
+## Output
+SMOTE balanced the training classes from 6:3 to 6:6.
