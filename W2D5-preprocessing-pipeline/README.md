@@ -50,3 +50,6 @@ python .\test_preprocessing.py
 ## Learning Outcome
 
 This project helped me practise EDA, missing-value handling, categorical encoding, feature scaling and exporting ML-ready data using Scikit-learn pipelines.
+
+## Validation
+The test script checks that output files exist, processed data has 10 features, no missing values remain, and target values are valid.
