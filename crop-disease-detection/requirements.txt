@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+torch
+torchvision
+fastapi
+uvicorn
+pillow
+jupyter
