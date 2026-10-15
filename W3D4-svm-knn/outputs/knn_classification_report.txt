@@ -1,0 +1,11 @@
+Best parameters:
+{'model__n_neighbors': 3, 'model__p': 1, 'model__weights': 'uniform'}
+
+              precision    recall  f1-score   support
+
+   malignant       0.97      0.93      0.95        42
+      benign       0.96      0.99      0.97        72
+
+    accuracy                           0.96       114
+   macro avg       0.97      0.96      0.96       114
+weighted avg       0.97      0.96      0.96       114

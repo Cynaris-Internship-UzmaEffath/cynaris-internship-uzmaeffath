@@ -1,0 +1,5 @@
+Model,Training Accuracy,Testing Accuracy,Precision,Recall,F1-score
+Decision Tree (Gini),1.0,0.9123,0.9559,0.9028,0.9286
+Decision Tree (Entropy),1.0,0.9123,0.9697,0.8889,0.9275
+Tuned Decision Tree,0.9758,0.9211,0.9437,0.9306,0.9371
+Random Forest,0.9956,0.9474,0.9583,0.9583,0.9583

@@ -1,0 +1,3 @@
+Model,Best CV Accuracy,Test Accuracy,Precision,Recall,F1 Score,Best Parameters
+SVM,0.9758241758241759,0.9824561403508771,0.9861111111111112,0.9861111111111112,0.9861111111111112,"{'model__C': 0.1, 'model__gamma': 'scale', 'model__kernel': 'linear'}"
+KNN,0.9714285714285715,0.9649122807017544,0.9594594594594594,0.9861111111111112,0.9726027397260274,"{'model__n_neighbors': 3, 'model__p': 1, 'model__weights': 'uniform'}"
