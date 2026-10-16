@@ -1,0 +1,4 @@
+Model,Best Parameters,CV Accuracy,Test Accuracy,Test F1,Search Time (seconds)
+Default SVM,Default settings,,0.9824561403508771,0.9861111111111112,0.0
+GridSearchCV SVM,"{'model__C': 0.1, 'model__gamma': 'scale', 'model__kernel': 'linear'}",0.9780219780219781,0.9824561403508771,0.9861111111111112,4.928
+RandomizedSearchCV SVM,"{'model__kernel': 'rbf', 'model__gamma': 0.01, 'model__C': 10}",0.9802197802197803,0.9824561403508771,0.9861111111111112,0.142
