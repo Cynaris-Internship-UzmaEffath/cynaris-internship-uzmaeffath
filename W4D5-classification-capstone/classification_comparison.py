@@ -171,3 +171,15 @@ def main():
 
 if __name__ == "__main__":
     main()
+    print(f"\nResults saved to: {OUTPUT_DIR}")
+    print(f"Models saved to: {MODEL_DIR}") 
+        # Test the saved Logistic Regression model on a new review.
+    sample_review = (
+        "This movie was excellent, with a great story and wonderful acting."
+    )
+    logistic_model = joblib.load(MODEL_DIR / "logistic_regression.joblib")
+    prediction = logistic_model.predict([sample_review])[0]
+    sentiment = "positive" if prediction == 1 else "negative"
+
+    print(f"\nSample review: {sample_review}")
+    print(f"Predicted sentiment: {sentiment}")
