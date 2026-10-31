@@ -1,0 +1,7 @@
+{
+    "original_tokens": 1975,
+    "compressed_tokens": 787,
+    "requested_compression_rate": 0.4,
+    "actual_token_reduction_percent": 60.15,
+    "compression_time_seconds": 7.69
+}

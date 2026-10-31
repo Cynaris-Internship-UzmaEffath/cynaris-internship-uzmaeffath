@@ -1,0 +1,38 @@
+[
+  {
+    "model": "llama3.2:3b",
+    "question": "Explain supervised learning in simple English with one example.",
+    "answer": "**Supervised Learning:**\n\nSupervised learning is a type of machine learning where a computer learns from labeled data. \"Labeled\" means that the data has a correct answer or output already assigned to it.\n\n**Example:**\n\nImagine you want to teach a computer to recognize different types of animals. You show the computer many pictures of cats, dogs, and birds, and each picture is labeled as \"cat\", \"dog\", or \"bird\". The computer uses this labeled data to learn the patterns and features of each animal. Over time, the computer becomes good at recognizing animals and can make predictions on new, unseen pictures. This is supervised learning in action!",
+    "response_time_seconds": 12.32
+  },
+  {
+    "model": "qwen2.5:3b",
+    "question": "Explain supervised learning in simple English with one example.",
+    "answer": "Supervised learning is like having a teacher who shows you how to solve problems. You learn from examples, where the teacher tells you the right answer. \n\nExample: Imagine you're learning to identify cats and dogs in pictures. Your teacher shows you many pictures of cats and dogs, and tells you which is which. You look at these examples and start to recognize patterns. Over time, you get better at guessing the right animal in new pictures. This is supervised learning - you learn from the teacher's examples.",
+    "response_time_seconds": 9.33
+  },
+  {
+    "model": "llama3.2:3b",
+    "question": "What is quantisation in an LLM, and what is one trade-off?",
+    "answer": "In a Large Language Model (LLM), quantization is a technique to reduce the memory and computational requirements of the model. It involves converting the model's weights and activations from high-precision floating-point numbers (like 32-bit or 64-bit) to lower-precision integers (like 8-bit or 16-bit).\n\nFor example, imagine a model with 32-bit weights. By quantizing it to 16-bit, the model's memory usage would decrease by 50%. However, this trade-off is that quantization can lead to a loss of precision in the model's calculations, which can affect its performance and accuracy.",
+    "response_time_seconds": 11.76
+  },
+  {
+    "model": "qwen2.5:3b",
+    "question": "What is quantisation in an LLM, and what is one trade-off?",
+    "answer": "Quantization in an LLM (Large Language Model) is about reducing the number of bits used to represent numbers in the model, making it smaller and faster to process. One trade-off is that this can slightly reduce the precision of numbers, potentially leading to minor accuracy loss, but it significantly reduces the model's memory and processing needs.",
+    "response_time_seconds": 6.72
+  },
+  {
+    "model": "llama3.2:3b",
+    "question": "Give three practical ways to protect a REST API.",
+    "answer": "Here are three practical ways to protect a REST API:\n\n1. **Use Authentication**: Add a username and password field to your API requests. You can use JSON Web Tokens (JWT) or Basic Authentication to securely store and verify user credentials.\n\nExample: `Authorization: Bearer <token>`\n\n2. **Implement Rate Limiting**: Limit the number of requests a user can make within a certain time frame. This prevents brute-force attacks and abuse.\n\nExample: `X-RateLimit-Limit: 100` (set by the server)\n\n3. **Use HTTPS (SSL/TLS)**: Encrypt data transmitted between the client and server using HTTPS. This ensures that data is secure and cannot be intercepted by unauthorized parties.\n\nExample: `https://api.example.com/endpoint`",
+    "response_time_seconds": 14.03
+  },
+  {
+    "model": "qwen2.5:3b",
+    "question": "Give three practical ways to protect a REST API.",
+    "answer": "Sure! Here are three practical ways to protect a REST API:\n\n1. Use HTTPS: Always encrypt data in transit by using HTTPS. For example, when you visit a website, you see https:// before the URL, not http://. This ensures that data sent between your browser and the server is secure.\n\n2. Implement Authentication: Use tokens like JWT (JSON Web Tokens) to authenticate users. For instance, when you sign up for a website, you get a token that you use to access your account. If someone tries to use your account without your token, they won't be able to access it.\n\n3. Use Rate Limiting: Limit the number of requests a user can make in a certain time. For example, if someone tries to spam your API with too many requests, you can block their IP temporarily to prevent abuse.",
+    "response_time_seconds": 16.25
+  }
+]
