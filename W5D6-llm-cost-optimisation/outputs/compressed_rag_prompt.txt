@@ -1,0 +1,216 @@
+
+ Artificial intelligence cybersecurity
+ attacks suspicious behaviour analysts.
+ Intrusion detection systems monitor
+ normal malicious. learn
+ identify threats.
+
+ intrusion detection system accuracy
+ false positive rates efficiency response time. Lightweight
+ models limited memory
+. Feature selection model pruning cost
+ predictive information.
+
+ Network security datasets contain protocol type service
+ duration source bytes destination bytes status.
+ denial-of-service attacks probing attempts
+ unauthorized access.
+
+ consider changing attack patterns.
+ evaluation degradation adapt threats.
+ Human review important.
+
+ Retrieval-augmented generation document language
+. chunks retrieved vector
+.
+ answer.
+
+ Vector databases.
+. quality
+ content influences accuracy relevance answer.
+
+ Prompt compression unnecessary tokens
+ information. inference time token usage.
+ aggressive compression context
+. compressed prompts
+ versions.
+
+ Artificial intelligence
+ attacks analysts.
+
+ normal malicious.
+.
+
+intrusion detection system accuracy
+ false positive rates efficiency response time. Lightweight
+ models limited memory
+. Feature selection model pruning cost
+ predictive information.
+
+ datasets protocol type service
+ connection duration source destination status.
+ denial-of-service attacks
+ unauthorized access.
+
+ changing attack patterns.
+ evaluation threats.
+ Human review.
+
+ Retrieval-augmented generation document language
+. document retrieved vector database
+.
+.
+
+ Vector databases.
+. quality
+ content influences accuracy relevance answer.
+
+ Prompt compression unnecessary tokens
+ information. inference time token usage.
+ aggressive compression context
+. compressed prompts
+.
+
+ Artificial intelligence cybersecurity
+ attacks suspicious behaviour analysts.
+ Intrusion detection systems monitor traffic classify activities
+. learning
+ identify threats.
+
+ accuracy
+ false positive rates efficiency response time. Lightweight
+ models memory
+. Feature selection model pruning cost
+ predictive information.
+
+security datasets contain protocol
+ duration source destination status.
+ denial-of-service attacks probing attempts
+ unauthorized access.
+
+ attack patterns.
+ evaluation threats.
+ Human review.
+
+ Retrieval-augmented generation document
+. document chunks retrieved vector database
+.
+.
+
+ Vector databases store semantic meaning.
+ retrieves. quality
+ retrieved content influences accuracy relevance final answer.
+
+ Prompt compression unnecessary tokens
+ information. inference time token usage.
+ aggressive compression context
+. compressed prompts
+ versions.
+
+ Artificial intelligence cybersecurity
+ attacks suspicious behaviour analysts.
+ Intrusion detection systems monitor traffic classify
+ malicious.
+ threats.
+
+ detection accuracy
+ false positive rates computational efficiency response time. Lightweight
+ models limited memory
+. Feature selection model pruning cost
+ predictive information.
+
+ datasets protocol
+ duration.
+ denial-of-service attacks
+ unauthorized access.
+
+ changing attack.Models
+ evaluation adapt threats.
+ review.
+
+ Retrieval-augmented generation language
+. document chunks retrieved vector database
+.
+ answer.
+
+ Vector databases semantic meaning.
+ retrieves. quality
+ retrieved content influences accuracy answer.
+
+ Prompt compression unnecessary tokens
+ information. inference time.
+ aggressive compression context
+. compressed prompts evaluated
+ versions.
+
+ Artificial intelligence cybersecurity
+ attacks suspicious behaviour analysts.
+ Intrusion detection systems monitor traffic classify
+.
+ identify threats.
+
+ system detection accuracy
+ false positive rates efficiency response time. Lightweight
+ models memory
+. Feature selection model pruning cost
+ predictive information.
+
+ security datasets protocol type
+ duration source bytes destination bytes status.
+ denial-of-service attacks attempts
+ unauthorized access.
+
+ consider changing attack patterns. Models
+ evaluation degradation adapt threats.
+ review.
+
+ Retrieval-augmented generation language
+.
+prompt. language model
+ answer.
+
+ Vector databases store.
+ retrieves. quality
+ retrieved content influences final answer.
+
+ Prompt compression unnecessary tokens
+ information. inference time token usage.
+ aggressive compression context
+. compressed prompts evaluated
+ versions.
+
+ Artificial intelligence cybersecurity
+ attacks suspicious behaviour analysts.
+ Intrusion detection systems monitor traffic classify
+ normal malicious.
+ identify threats.
+
+ reliable intrusion detection system detection accuracy
+ false positive rates computational efficiency response time. Lightweight
+ models limited memory
+. Feature selection model pruning cost
+ predictive information.
+
+ security datasets protocol type
+ duration source bytes destination status.
+ denial-of-service attacks attempts
+ unauthorized access.
+
+ changing attack patterns.
+ evaluation threats.
+ Human review.
+
+ Retrieval-augmented generation language
+. chunks retrieved vector database
+ prompt.
+ answer.
+
+ databases.
+.
+retrieved content final answer.
+
+ Prompt compression tokens
+ information. inference time token usage.
+ aggressive compression context
+ answers. compressed prompts
+.
