@@ -71,3 +71,17 @@ python W6D1\agent_demo.py
 ## Conclusion
 
 Successfully implemented and tested LangChain chains, conversation memory and a two-tool agent using a locally hosted Ollama model.
+
+## Viva Questions
+
+**1. What is the difference between a chain and a single LLM call?**
+
+A single LLM call sends a prompt directly to a language model and receives a response. A chain connects multiple components, such as a prompt template, LLM and output parser, into a sequence.
+
+**2. What problem does conversation memory solve?**
+
+Conversation memory stores previous messages so the assistant can use earlier information when responding to later questions. It helps maintain context across multiple turns.
+
+**3. What is the ReAct pattern?**
+
+ReAct stands for Reasoning and Acting. It allows an agent to reason about a task, select and use tools, observe their results and provide a final response.
