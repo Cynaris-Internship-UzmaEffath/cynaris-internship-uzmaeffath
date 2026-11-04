@@ -91,3 +91,11 @@ python agent.py
 ## Conclusion
 
 Successfully implemented and tested LangChain chains, conversation memory, tools, and agents using the local Ollama model llama3.2:3b. Saved execution outputs for all three tasks.
+
+## Key Learnings
+
+- Understood the difference between a LangChain chain and an agent.
+- Learned how conversation memory maintains context across multiple turns.
+- Understood how agents select and invoke tools based on user instructions.
+- Explored local LLM integration using Ollama and ChatOllama.
+- Learned to use LangChain's create_agent for tool-based workflows.
