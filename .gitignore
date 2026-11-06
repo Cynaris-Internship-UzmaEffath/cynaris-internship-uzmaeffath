@@ -5,3 +5,12 @@ __pycache__/
 .env
 
 .venv/
+
+# W4D5 IMDb sentiment classification
+W4D5-classification-capstone/data/
+W4D5-classification-capstone/models/
+
+# W5D3 generated vector databases
+chroma_data/
+W5D3-chromadb/chroma_data/
+W5D3-chromadb/pdf_chroma_data/

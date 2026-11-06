@@ -1,0 +1,3 @@
+Date,Model,Input Tokens,Output Tokens,Total Tokens,Estimated Cost USD,Estimated Cost INR
+2026-10-31,Llama 3.2 (3B),500,200,700,0.00055,0.0484
+2026-10-31,Qwen 2.5 (3B),800,300,1100,0.00085,0.0748
