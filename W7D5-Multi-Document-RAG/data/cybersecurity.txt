@@ -1,0 +1,11 @@
+﻿Cybersecurity
+
+Cybersecurity is the practice of protecting computers, networks, applications, and data from unauthorized access and cyberattacks.
+
+Common threats include malware, phishing, ransomware, denial-of-service attacks, and SQL injection.
+
+Authentication verifies the identity of a user, while authorization determines which resources the user can access.
+
+Encryption protects sensitive information by converting readable data into an encoded format.
+
+Firewalls, intrusion detection systems, multi-factor authentication, and regular security updates help protect digital systems.
