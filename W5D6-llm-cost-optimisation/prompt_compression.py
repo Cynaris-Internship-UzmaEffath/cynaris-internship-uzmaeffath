@@ -1,0 +1,57 @@
+﻿from pathlib import Path
+import tiktoken
+
+encoding = tiktoken.get_encoding("cl100k_base")
+
+base_text = """
+Artificial intelligence is increasingly used in cybersecurity to identify
+network attacks, detect suspicious behaviour, and support security analysts.
+Intrusion detection systems monitor network traffic and classify activities
+as normal or malicious. Machine learning models can learn patterns from
+historical network traffic and identify potential threats.
+
+A reliable intrusion detection system should balance detection accuracy,
+false positive rates, computational efficiency, and response time. Lightweight
+models are especially useful in environments with limited memory and processing
+resources. Feature selection and model pruning can reduce computational cost
+while preserving useful predictive information.
+
+Network security datasets contain features such as protocol type, service,
+connection duration, source bytes, destination bytes, and connection status.
+These features can help identify denial-of-service attacks, probing attempts,
+and unauthorized access.
+
+Security systems should also consider changing attack patterns. Models need
+regular evaluation to identify performance degradation and adapt to new threats.
+Human review remains important when security decisions have significant impact.
+
+Retrieval-augmented generation combines document retrieval with language
+generation. Relevant document chunks are retrieved from a vector database
+and included in the prompt as context. The language model uses this context
+to generate an answer grounded in the available information.
+
+Vector databases store embeddings that represent semantic meaning. Similarity
+search retrieves information related to a user's question. The quality of
+retrieved content influences the accuracy and relevance of the final answer.
+
+Prompt compression aims to reduce unnecessary tokens while preserving
+important information. This can reduce inference time and token usage.
+However, aggressive compression may remove context required for accurate
+answers. Therefore, compressed prompts should be evaluated against their
+original versions using the same questions.
+"""
+
+prompt = base_text * 6
+
+original_tokens = len(encoding.encode(prompt))
+
+output_dir = Path("outputs")
+output_dir.mkdir(exist_ok=True)
+
+Path("outputs/original_rag_prompt.txt").write_text(
+    prompt, encoding="utf-8"
+)
+
+print("Original RAG prompt prepared.")
+print(f"Original token count: {original_tokens}")
+print("Saved: outputs/original_rag_prompt.txt")
