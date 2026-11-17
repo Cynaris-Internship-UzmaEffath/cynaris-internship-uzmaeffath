@@ -1,0 +1,188 @@
+{
+    "retrieval_k": 5,
+    "chunk_size": 500,
+    "chunk_overlap": 100,
+    "prompt": "same_as_baseline",
+    "results": [
+        {
+            "id": "Q1",
+            "question": "What enables machine learning systems to improve their performance?",
+            "answer": "Machine learning.",
+            "reference": "Machine learning is a subset of AI that enables computers to learn patterns from data and improve performance without being explicitly programmed for every task.",
+            "retrieved_contexts": [
+                "Artificial Intelligence\nArtificial Intelligence (AI) is a branch of computer science that develops systems capable of\nperforming tasks that normally require human intelligence.\nMachine learning is a subset of AI. It enables computers to learn patterns from data and improve\ntheir performance without being explicitly programmed for every task.\nDeep learning is a subset of machine learning that uses neural networks with multiple layers. It is",
+                "Artificial Intelligence\nArtificial Intelligence (AI) is a branch of computer science that develops systems capable of\nperforming tasks that normally require human intelligence.\nMachine learning is a subset of AI. It enables computers to learn patterns from data and improve\ntheir performance without being explicitly programmed for every task.\nDeep learning is a subset of machine learning that uses neural networks with multiple layers. It is",
+                "Deep learning is a subset of machine learning that uses neural networks with multiple layers. It is\ncommonly used in image recognition, speech processing, and natural language processing.\nCommon applications of AI include recommendation systems, virtual assistants, fraud detection,\nmedical image analysis, and autonomous vehicles.",
+                "Deep learning is a subset of machine learning that uses neural networks with multiple layers. It is\ncommonly used in image recognition, speech processing, and natural language processing.\nCommon applications of AI include recommendation systems, virtual assistants, fraud detection,\nmedical image analysis, and autonomous vehicles.",
+                "Natural Language Processing\nNatural Language Processing (NLP) is a field of artificial intelligence that enables computers to\nunderstand, interpret, and generate human language.\nTokenization divides text into smaller units called tokens. These units may be words, subwords, or\ncharacters.\nStemming reduces words to their root form by removing prefixes or suffixes. Lemmatization\nconverts words into their meaningful dictionary base forms."
+            ],
+            "sources": [
+                "01_artificial_intelligence.pdf",
+                "02_natural_language_processing.pdf"
+            ],
+            "expected_source": "01_artificial_intelligence.pdf"
+        },
+        {
+            "id": "Q2",
+            "question": "What makes deep learning different from other machine learning approaches, and where is it commonly used?",
+            "answer": "I do not know. The context only provides information about the definition and applications of deep learning, machine learning, and artificial intelligence, but does not specify what makes deep learning different from other machine learning approaches.",
+            "reference": "Deep learning is a subset of machine learning that uses neural networks with multiple layers. It is commonly used in image recognition, speech processing, and natural language processing.",
+            "retrieved_contexts": [
+                "Deep learning is a subset of machine learning that uses neural networks with multiple layers. It is\ncommonly used in image recognition, speech processing, and natural language processing.\nCommon applications of AI include recommendation systems, virtual assistants, fraud detection,\nmedical image analysis, and autonomous vehicles.",
+                "Deep learning is a subset of machine learning that uses neural networks with multiple layers. It is\ncommonly used in image recognition, speech processing, and natural language processing.\nCommon applications of AI include recommendation systems, virtual assistants, fraud detection,\nmedical image analysis, and autonomous vehicles.",
+                "Artificial Intelligence\nArtificial Intelligence (AI) is a branch of computer science that develops systems capable of\nperforming tasks that normally require human intelligence.\nMachine learning is a subset of AI. It enables computers to learn patterns from data and improve\ntheir performance without being explicitly programmed for every task.\nDeep learning is a subset of machine learning that uses neural networks with multiple layers. It is",
+                "Artificial Intelligence\nArtificial Intelligence (AI) is a branch of computer science that develops systems capable of\nperforming tasks that normally require human intelligence.\nMachine learning is a subset of AI. It enables computers to learn patterns from data and improve\ntheir performance without being explicitly programmed for every task.\nDeep learning is a subset of machine learning that uses neural networks with multiple layers. It is",
+                "converts words into their meaningful dictionary base forms.\nApplications of NLP include sentiment analysis, machine translation, text summarization, chatbots,\nand information extraction.\nTransformer models use attention mechanisms to understand relationships between words in a\nsequence."
+            ],
+            "sources": [
+                "01_artificial_intelligence.pdf",
+                "02_natural_language_processing.pdf"
+            ],
+            "expected_source": "01_artificial_intelligence.pdf"
+        },
+        {
+            "id": "Q3",
+            "question": "What are the possible units produced during tokenization?",
+            "answer": "According to the context, the possible units produced during tokenization are:\n\n1. Words\n2. Subwords\n3. Characters",
+            "reference": "Tokenization divides text into smaller units called tokens. These units may be words, subwords, or characters.",
+            "retrieved_contexts": [
+                "Natural Language Processing\nNatural Language Processing (NLP) is a field of artificial intelligence that enables computers to\nunderstand, interpret, and generate human language.\nTokenization divides text into smaller units called tokens. These units may be words, subwords, or\ncharacters.\nStemming reduces words to their root form by removing prefixes or suffixes. Lemmatization\nconverts words into their meaningful dictionary base forms.",
+                "Natural Language Processing\nNatural Language Processing (NLP) is a field of artificial intelligence that enables computers to\nunderstand, interpret, and generate human language.\nTokenization divides text into smaller units called tokens. These units may be words, subwords, or\ncharacters.\nStemming reduces words to their root form by removing prefixes or suffixes. Lemmatization\nconverts words into their meaningful dictionary base forms.",
+                "converts words into their meaningful dictionary base forms.\nApplications of NLP include sentiment analysis, machine translation, text summarization, chatbots,\nand information extraction.\nTransformer models use attention mechanisms to understand relationships between words in a\nsequence.",
+                "converts words into their meaningful dictionary base forms.\nApplications of NLP include sentiment analysis, machine translation, text summarization, chatbots,\nand information extraction.\nTransformer models use attention mechanisms to understand relationships between words in a\nsequence.",
+                "retrieves documents based on semantic similarity.\nPrecision measures the proportion of retrieved documents that are relevant. Recall measures the\nproportion of all relevant documents that were retrieved.\nA vector database stores and searches vector embeddings. It is commonly used in semantic search\nand retrieval-augmented generation systems."
+            ],
+            "sources": [
+                "02_natural_language_processing.pdf",
+                "03_information_retrieval.pdf"
+            ],
+            "expected_source": "02_natural_language_processing.pdf"
+        },
+        {
+            "id": "Q4",
+            "question": "How do transformer models understand relationships between words?",
+            "answer": "Transformer models use attention mechanisms to understand relationships between words in a sequence.",
+            "reference": "Transformer models use attention mechanisms to understand relationships between words in a sequence.",
+            "retrieved_contexts": [
+                "converts words into their meaningful dictionary base forms.\nApplications of NLP include sentiment analysis, machine translation, text summarization, chatbots,\nand information extraction.\nTransformer models use attention mechanisms to understand relationships between words in a\nsequence.",
+                "converts words into their meaningful dictionary base forms.\nApplications of NLP include sentiment analysis, machine translation, text summarization, chatbots,\nand information extraction.\nTransformer models use attention mechanisms to understand relationships between words in a\nsequence.",
+                "Natural Language Processing\nNatural Language Processing (NLP) is a field of artificial intelligence that enables computers to\nunderstand, interpret, and generate human language.\nTokenization divides text into smaller units called tokens. These units may be words, subwords, or\ncharacters.\nStemming reduces words to their root form by removing prefixes or suffixes. Lemmatization\nconverts words into their meaningful dictionary base forms.",
+                "Natural Language Processing\nNatural Language Processing (NLP) is a field of artificial intelligence that enables computers to\nunderstand, interpret, and generate human language.\nTokenization divides text into smaller units called tokens. These units may be words, subwords, or\ncharacters.\nStemming reduces words to their root form by removing prefixes or suffixes. Lemmatization\nconverts words into their meaningful dictionary base forms.",
+                "Information Retrieval\nInformation Retrieval (IR) is the process of finding relevant information from a collection of\ndocuments in response to a user's query.\nBM25 is a keyword-based ranking algorithm. It considers term frequency, inverse document\nfrequency, and document length when ranking documents.\nDense retrieval converts queries and documents into numerical vectors called embeddings. It\nretrieves documents based on semantic similarity."
+            ],
+            "sources": [
+                "02_natural_language_processing.pdf",
+                "03_information_retrieval.pdf"
+            ],
+            "expected_source": "02_natural_language_processing.pdf"
+        },
+        {
+            "id": "Q5",
+            "question": "What information does BM25 consider when ranking documents?",
+            "answer": "BM25 considers term frequency, inverse document frequency, and document length when ranking documents.",
+            "reference": "BM25 considers term frequency, inverse document frequency, and document length when ranking documents.",
+            "retrieved_contexts": [
+                "Information Retrieval\nInformation Retrieval (IR) is the process of finding relevant information from a collection of\ndocuments in response to a user's query.\nBM25 is a keyword-based ranking algorithm. It considers term frequency, inverse document\nfrequency, and document length when ranking documents.\nDense retrieval converts queries and documents into numerical vectors called embeddings. It\nretrieves documents based on semantic similarity.",
+                "Information Retrieval\nInformation Retrieval (IR) is the process of finding relevant information from a collection of\ndocuments in response to a user's query.\nBM25 is a keyword-based ranking algorithm. It considers term frequency, inverse document\nfrequency, and document length when ranking documents.\nDense retrieval converts queries and documents into numerical vectors called embeddings. It\nretrieves documents based on semantic similarity.",
+                "retrieves documents based on semantic similarity.\nPrecision measures the proportion of retrieved documents that are relevant. Recall measures the\nproportion of all relevant documents that were retrieved.\nA vector database stores and searches vector embeddings. It is commonly used in semantic search\nand retrieval-augmented generation systems.",
+                "retrieves documents based on semantic similarity.\nPrecision measures the proportion of retrieved documents that are relevant. Recall measures the\nproportion of all relevant documents that were retrieved.\nA vector database stores and searches vector embeddings. It is commonly used in semantic search\nand retrieval-augmented generation systems.",
+                "Natural Language Processing\nNatural Language Processing (NLP) is a field of artificial intelligence that enables computers to\nunderstand, interpret, and generate human language.\nTokenization divides text into smaller units called tokens. These units may be words, subwords, or\ncharacters.\nStemming reduces words to their root form by removing prefixes or suffixes. Lemmatization\nconverts words into their meaningful dictionary base forms."
+            ],
+            "sources": [
+                "03_information_retrieval.pdf",
+                "02_natural_language_processing.pdf"
+            ],
+            "expected_source": "03_information_retrieval.pdf"
+        },
+        {
+            "id": "Q6",
+            "question": "How does dense retrieval identify relevant documents?",
+            "answer": "Dense retrieval identifies relevant documents based on semantic similarity.",
+            "reference": "Dense retrieval converts queries and documents into numerical vectors called embeddings and retrieves documents based on semantic similarity.",
+            "retrieved_contexts": [
+                "retrieves documents based on semantic similarity.\nPrecision measures the proportion of retrieved documents that are relevant. Recall measures the\nproportion of all relevant documents that were retrieved.\nA vector database stores and searches vector embeddings. It is commonly used in semantic search\nand retrieval-augmented generation systems.",
+                "retrieves documents based on semantic similarity.\nPrecision measures the proportion of retrieved documents that are relevant. Recall measures the\nproportion of all relevant documents that were retrieved.\nA vector database stores and searches vector embeddings. It is commonly used in semantic search\nand retrieval-augmented generation systems.",
+                "Information Retrieval\nInformation Retrieval (IR) is the process of finding relevant information from a collection of\ndocuments in response to a user's query.\nBM25 is a keyword-based ranking algorithm. It considers term frequency, inverse document\nfrequency, and document length when ranking documents.\nDense retrieval converts queries and documents into numerical vectors called embeddings. It\nretrieves documents based on semantic similarity.",
+                "Information Retrieval\nInformation Retrieval (IR) is the process of finding relevant information from a collection of\ndocuments in response to a user's query.\nBM25 is a keyword-based ranking algorithm. It considers term frequency, inverse document\nfrequency, and document length when ranking documents.\nDense retrieval converts queries and documents into numerical vectors called embeddings. It\nretrieves documents based on semantic similarity.",
+                "Natural Language Processing\nNatural Language Processing (NLP) is a field of artificial intelligence that enables computers to\nunderstand, interpret, and generate human language.\nTokenization divides text into smaller units called tokens. These units may be words, subwords, or\ncharacters.\nStemming reduces words to their root form by removing prefixes or suffixes. Lemmatization\nconverts words into their meaningful dictionary base forms."
+            ],
+            "sources": [
+                "03_information_retrieval.pdf",
+                "02_natural_language_processing.pdf"
+            ],
+            "expected_source": "03_information_retrieval.pdf"
+        },
+        {
+            "id": "Q7",
+            "question": "How do confidentiality, integrity, and availability differ?",
+            "answer": "According to the context, confidentiality, integrity, and availability are the three important security principles represented by the CIA triad. \n\nHere's how they differ:\n\n- Confidentiality ensures that information is accessible only to authorized users.\n- Integrity protects information from unauthorized modification.\n- Availability ensures that systems and data remain accessible when needed.",
+            "reference": "Confidentiality ensures information is accessible only to authorized users. Integrity protects information from unauthorized modification. Availability ensures systems and data remain accessible when needed.",
+            "retrieved_contexts": [
+                "Cybersecurity\nCybersecurity protects computer systems, networks, applications, and data from unauthorized\naccess, attacks, and damage.\nThe CIA triad represents three important security principles: confidentiality, integrity, and\navailability.\nConfidentiality ensures that information is accessible only to authorized users. Integrity protects\ninformation from unauthorized modification. Availability ensures that systems and data remain\naccessible when needed.",
+                "Cybersecurity\nCybersecurity protects computer systems, networks, applications, and data from unauthorized\naccess, attacks, and damage.\nThe CIA triad represents three important security principles: confidentiality, integrity, and\navailability.\nConfidentiality ensures that information is accessible only to authorized users. Integrity protects\ninformation from unauthorized modification. Availability ensures that systems and data remain\naccessible when needed.",
+                "accessible when needed.\nEncryption converts readable information into an encoded form using a cryptographic key.\nAuthentication verifies the identity of a user or system.\nCommon cybersecurity threats include phishing, malware, ransomware, denial-of-service attacks,\nand password attacks.",
+                "accessible when needed.\nEncryption converts readable information into an encoded form using a cryptographic key.\nAuthentication verifies the identity of a user or system.\nCommon cybersecurity threats include phishing, malware, ransomware, denial-of-service attacks,\nand password attacks.",
+                "Public cloud services are provided over shared infrastructure. Private clouds are dedicated to a\nsingle organization. Hybrid cloud combines public and private cloud environments.\nScalability allows computing resources to increase or decrease based on demand. Elasticity\nautomatically adjusts resources according to changing workloads.\nCloud computing can reduce infrastructure management effort and support flexible resource usage."
+            ],
+            "sources": [
+                "04_cybersecurity.pdf",
+                "05_cloud_computing.pdf"
+            ],
+            "expected_source": "04_cybersecurity.pdf"
+        },
+        {
+            "id": "Q8",
+            "question": "What is encryption, and what role does a cryptographic key play?",
+            "answer": "Encryption converts readable information into an encoded form using a cryptographic key.",
+            "reference": "Encryption converts readable information into an encoded form using a cryptographic key.",
+            "retrieved_contexts": [
+                "accessible when needed.\nEncryption converts readable information into an encoded form using a cryptographic key.\nAuthentication verifies the identity of a user or system.\nCommon cybersecurity threats include phishing, malware, ransomware, denial-of-service attacks,\nand password attacks.",
+                "accessible when needed.\nEncryption converts readable information into an encoded form using a cryptographic key.\nAuthentication verifies the identity of a user or system.\nCommon cybersecurity threats include phishing, malware, ransomware, denial-of-service attacks,\nand password attacks.",
+                "Cybersecurity\nCybersecurity protects computer systems, networks, applications, and data from unauthorized\naccess, attacks, and damage.\nThe CIA triad represents three important security principles: confidentiality, integrity, and\navailability.\nConfidentiality ensures that information is accessible only to authorized users. Integrity protects\ninformation from unauthorized modification. Availability ensures that systems and data remain\naccessible when needed.",
+                "Cybersecurity\nCybersecurity protects computer systems, networks, applications, and data from unauthorized\naccess, attacks, and damage.\nThe CIA triad represents three important security principles: confidentiality, integrity, and\navailability.\nConfidentiality ensures that information is accessible only to authorized users. Integrity protects\ninformation from unauthorized modification. Availability ensures that systems and data remain\naccessible when needed.",
+                "Artificial Intelligence\nArtificial Intelligence (AI) is a branch of computer science that develops systems capable of\nperforming tasks that normally require human intelligence.\nMachine learning is a subset of AI. It enables computers to learn patterns from data and improve\ntheir performance without being explicitly programmed for every task.\nDeep learning is a subset of machine learning that uses neural networks with multiple layers. It is"
+            ],
+            "sources": [
+                "04_cybersecurity.pdf",
+                "01_artificial_intelligence.pdf"
+            ],
+            "expected_source": "04_cybersecurity.pdf"
+        },
+        {
+            "id": "Q9",
+            "question": "How do IaaS, PaaS, and SaaS differ in the services they provide?",
+            "answer": "I don't know. The context only provides information about the characteristics of public, private, and hybrid clouds, as well as common cybersecurity threats, but does not provide information about the differences between IaaS, PaaS, and SaaS.",
+            "reference": "IaaS provides virtualized computing resources, PaaS provides an environment for application development and deployment, and SaaS provides ready-to-use software over the internet.",
+            "retrieved_contexts": [
+                "Cloud Computing\nCloud computing provides computing resources such as servers, storage, databases, and software\nover the internet.\nInfrastructure as a Service (IaaS) provides virtualized computing resources. Platform as a Service\n(PaaS) provides an environment for application development and deployment. Software as a\nService (SaaS) provides ready-to-use software over the internet.\nPublic cloud services are provided over shared infrastructure. Private clouds are dedicated to a",
+                "Cloud Computing\nCloud computing provides computing resources such as servers, storage, databases, and software\nover the internet.\nInfrastructure as a Service (IaaS) provides virtualized computing resources. Platform as a Service\n(PaaS) provides an environment for application development and deployment. Software as a\nService (SaaS) provides ready-to-use software over the internet.\nPublic cloud services are provided over shared infrastructure. Private clouds are dedicated to a",
+                "Public cloud services are provided over shared infrastructure. Private clouds are dedicated to a\nsingle organization. Hybrid cloud combines public and private cloud environments.\nScalability allows computing resources to increase or decrease based on demand. Elasticity\nautomatically adjusts resources according to changing workloads.\nCloud computing can reduce infrastructure management effort and support flexible resource usage.",
+                "Public cloud services are provided over shared infrastructure. Private clouds are dedicated to a\nsingle organization. Hybrid cloud combines public and private cloud environments.\nScalability allows computing resources to increase or decrease based on demand. Elasticity\nautomatically adjusts resources according to changing workloads.\nCloud computing can reduce infrastructure management effort and support flexible resource usage.",
+                "accessible when needed.\nEncryption converts readable information into an encoded form using a cryptographic key.\nAuthentication verifies the identity of a user or system.\nCommon cybersecurity threats include phishing, malware, ransomware, denial-of-service attacks,\nand password attacks."
+            ],
+            "sources": [
+                "05_cloud_computing.pdf",
+                "04_cybersecurity.pdf"
+            ],
+            "expected_source": "05_cloud_computing.pdf"
+        },
+        {
+            "id": "Q10",
+            "question": "How does elasticity differ from scalability?",
+            "answer": "I do not know. The context does not provide a clear definition or explanation of how elasticity differs from scalability.",
+            "reference": "Scalability allows computing resources to increase or decrease based on demand, while elasticity automatically adjusts resources according to changing workloads.",
+            "retrieved_contexts": [
+                "Public cloud services are provided over shared infrastructure. Private clouds are dedicated to a\nsingle organization. Hybrid cloud combines public and private cloud environments.\nScalability allows computing resources to increase or decrease based on demand. Elasticity\nautomatically adjusts resources according to changing workloads.\nCloud computing can reduce infrastructure management effort and support flexible resource usage.",
+                "Public cloud services are provided over shared infrastructure. Private clouds are dedicated to a\nsingle organization. Hybrid cloud combines public and private cloud environments.\nScalability allows computing resources to increase or decrease based on demand. Elasticity\nautomatically adjusts resources according to changing workloads.\nCloud computing can reduce infrastructure management effort and support flexible resource usage.",
+                "Cloud Computing\nCloud computing provides computing resources such as servers, storage, databases, and software\nover the internet.\nInfrastructure as a Service (IaaS) provides virtualized computing resources. Platform as a Service\n(PaaS) provides an environment for application development and deployment. Software as a\nService (SaaS) provides ready-to-use software over the internet.\nPublic cloud services are provided over shared infrastructure. Private clouds are dedicated to a",
+                "Cloud Computing\nCloud computing provides computing resources such as servers, storage, databases, and software\nover the internet.\nInfrastructure as a Service (IaaS) provides virtualized computing resources. Platform as a Service\n(PaaS) provides an environment for application development and deployment. Software as a\nService (SaaS) provides ready-to-use software over the internet.\nPublic cloud services are provided over shared infrastructure. Private clouds are dedicated to a",
+                "accessible when needed.\nEncryption converts readable information into an encoded form using a cryptographic key.\nAuthentication verifies the identity of a user or system.\nCommon cybersecurity threats include phishing, malware, ransomware, denial-of-service attacks,\nand password attacks."
+            ],
+            "sources": [
+                "05_cloud_computing.pdf",
+                "04_cybersecurity.pdf"
+            ],
+            "expected_source": "05_cloud_computing.pdf"
+        }
+    ]
+}
