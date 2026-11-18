@@ -1,4 +1,4 @@
-﻿# W8D3 – Haystack Retrieval API Deployment
+W8D3 - Deployment: Haystack API on Railway
 
 ## 1. Overview
 
@@ -215,7 +215,45 @@ The Docker application:
 
 The Docker configuration supports deployment on cloud platforms such as Railway.
 
-## 10. Conclusion
+## 10. Railway Cloud Deployment
+
+The application was successfully deployed to Railway using Docker.
+
+**Live API URL:**
+
+https://cynaris-internship-uzmaeffath-production-34001c40.up.railway.app
+
+**Deployment Configuration:**
+
+- Platform: Railway
+- Builder: Dockerfile
+- Dockerfile Path: `W8D3-Haystack-API/Dockerfile`
+- Git Branch: `feat/aiml-W8-UzmaEffath`
+- Application Port: 8000
+- Deployment Status: Successful
+
+### Production API Testing
+
+The following endpoints were tested successfully on the live Railway deployment:
+
+| Endpoint | Test Result |
+|---|---|
+| `/` | Healthy |
+| `/search?method=bm25` | Successful |
+| `/search?method=dense` | Successful |
+| `/answer?method=dense` | Successful |
+
+Both BM25 and Dense retrieval returned three ranked results for the query:
+
+`What is machine learning?`
+
+The Answer endpoint returned combined retrieval context from the relevant PDF documents along with their source filenames.
+
+**Production Swagger Documentation:**
+
+https://cynaris-internship-uzmaeffath-production-34001c40.up.railway.app/docs
+
+## 11. Conclusion
 
 Successfully developed and containerized a Haystack-based PDF retrieval API using FastAPI and Docker.
 
