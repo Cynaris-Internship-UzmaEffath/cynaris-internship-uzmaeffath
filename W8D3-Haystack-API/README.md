@@ -266,3 +266,31 @@ The application supports both keyword-based BM25 retrieval and semantic Dense re
 **Track:** AI/ML Internship
 
 **Repository:** Cynaris Internship
+
+## 12. Automated API Tests
+
+Automated API tests are available in:
+
+`W8D3-Haystack-API/tests/test_api.py`
+
+The test suite uses **pytest**, **FastAPI TestClient**, and mocked retrieval pipelines.
+
+### Test Coverage
+
+| Test | Description |
+|---|---|
+| Health check | Verifies API health response |
+| BM25 search | Verifies keyword retrieval |
+| Dense search | Verifies semantic retrieval |
+| Invalid method | Checks unsupported retrieval methods |
+| Short query | Checks minimum query length validation |
+| Answer endpoint | Verifies combined context and sources |
+| Empty results | Checks behaviour when no documents are retrieved |
+
+### Run Tests
+
+From the repository root, execute:
+
+```powershell
+python -m pytest .\W8D3-Haystack-API\tests\test_api.py -v
+```
