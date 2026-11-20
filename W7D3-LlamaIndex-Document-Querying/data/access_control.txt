@@ -1,0 +1,3 @@
+﻿Access Control and Authentication
+
+Access control ensures that users can access only the resources they are authorized to use. Role-Based Access Control (RBAC) assigns permissions according to user roles. Authentication verifies a user's identity, while authorization determines what an authenticated user is allowed to do. Multi-factor authentication improves security by requiring two or more verification factors. Strong password hashing algorithms such as bcrypt help protect stored passwords.

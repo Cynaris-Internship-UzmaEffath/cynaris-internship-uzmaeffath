@@ -1,0 +1,13 @@
+{
+    "topic": "Applications of artificial intelligence in cybersecurity",
+    "metric": "answer_relevancy",
+    "score": 0.8455838789780485,
+    "llm_model": "llama3.2:3b",
+    "embedding_model": "all-minilm:latest",
+    "evaluation_provider": "Local Ollama",
+    "limitations": [
+        "The assistant generates reports without retrieving source documents.",
+        "Faithfulness and context-based retrieval metrics are not evaluated.",
+        "The report is generated content and is not independently source-verified."
+    ]
+}

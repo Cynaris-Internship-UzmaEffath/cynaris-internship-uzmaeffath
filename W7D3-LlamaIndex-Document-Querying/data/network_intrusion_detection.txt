@@ -1,0 +1,3 @@
+﻿Network Intrusion Detection
+
+An intrusion detection system (IDS) monitors network traffic to identify suspicious activities and potential security threats. A network-based IDS analyzes packets flowing through a network and detects unusual patterns. Machine learning models can classify network traffic as normal or malicious based on features such as protocol type, source bytes, destination bytes, and connection duration. Regular model evaluation helps reduce false positives and false negatives.

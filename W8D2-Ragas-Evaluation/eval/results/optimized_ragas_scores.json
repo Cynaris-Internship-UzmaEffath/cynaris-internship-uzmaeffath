@@ -1,0 +1,114 @@
+{
+  "retrieval_k": 5,
+  "evaluation_model": "qwen2.5:3b",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "total_questions": 10,
+  "metric_averages": {
+    "faithfulness": 0.645,
+    "answer_relevancy": 0.7235,
+    "context_precision": 1.0,
+    "context_recall": 0.9
+  },
+  "results": [
+    {
+      "id": "Q1",
+      "question": "What enables machine learning systems to improve their performance?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7446230981390332,
+        "context_precision": 0.999999999975,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "id": "Q2",
+      "question": "What makes deep learning different from other machine learning approaches, and where is it commonly used?",
+      "scores": {
+        "faithfulness": 0.6,
+        "answer_relevancy": 0.8350108120448594,
+        "context_precision": 0.999999999975,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "id": "Q3",
+      "question": "What are the possible units produced during tokenization?",
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9793889886240215,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "id": "Q4",
+      "question": "How do transformer models understand relationships between words?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "id": "Q5",
+      "question": "What information does BM25 consider when ranking documents?",
+      "scores": {
+        "faithfulness": 0.3333333333333333,
+        "answer_relevancy": 0.9608360187286364,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "id": "Q6",
+      "question": "How does dense retrieval identify relevant documents?",
+      "scores": {
+        "faithfulness": 0.6666666666666666,
+        "answer_relevancy": 0.7408251294178404,
+        "context_precision": 0.999999999975,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "id": "Q7",
+      "question": "How do confidentiality, integrity, and availability differ?",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.3768218900795464,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "id": "Q8",
+      "question": "What is encryption, and what role does a cryptographic key play?",
+      "scores": {
+        "faithfulness": 0.6,
+        "answer_relevancy": 0.8929349133706207,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "id": "Q9",
+      "question": "How do IaaS, PaaS, and SaaS differ in the services they provide?",
+      "scores": {
+        "faithfulness": 0.8333333333333334,
+        "answer_relevancy": 0.7044237581485024,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "id": "Q10",
+      "question": "How does elasticity differ from scalability?",
+      "scores": {
+        "faithfulness": 0.4166666666666667,
+        "answer_relevancy": 0.0,
+        "context_precision": 0.99999999995,
+        "context_recall": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "dataset": "Five educational PDF documents",
+    "total_questions": 10,
+    "bm25": {
+        "precision_at_3": 0.3333,
+        "hit_rate_at_3": 1.0,
+        "top1_accuracy": 1.0
+    },
+    "dense": {
+        "precision_at_3": 0.3333,
+        "hit_rate_at_3": 1.0,
+        "top1_accuracy": 1.0
+    }
+}
