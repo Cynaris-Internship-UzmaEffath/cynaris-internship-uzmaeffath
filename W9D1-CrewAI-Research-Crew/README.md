@@ -138,3 +138,30 @@ W9D1-CrewAI-Research-Crew/
     +-- evidence_based_research_report.md
     +-- search_sources.md
     +-- web_search_research_report.md
+
+## W9D2 — CrewAI Tools: Web Search and Code Execution
+
+### Tools Implemented
+
+1. **DuckDuckGo Web Search**
+   - Uses the `ddgs` package.
+   - Searches through Bing with an automatic-backend fallback.
+   - Returns result titles, URLs and descriptions.
+
+2. **Safe Python Code Execution**
+   - Custom CrewAI `BaseTool`.
+   - Uses restricted AST-based expression evaluation.
+   - Supports basic arithmetic and allowlisted functions.
+   - Rejects unsupported operations and unsafe expressions.
+   - It is a restricted calculator, not a general-purpose Python sandbox.
+
+### Integration and Testing
+
+Both tools were integrated into the Research Analyst agent.
+
+| Test | Expected | Actual | Status |
+|---|---:|---:|---|
+| Web search: PlantVillage dataset | Search results | Result returned | PASS |
+| `sum([10, 20, 30])` | 60 | 60 | PASS |
+
+Detailed test evidence: `outputs/w9d2_tool_test_results.md`.
