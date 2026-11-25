@@ -1,0 +1,12 @@
+{
+    "topic": "AI-Based Crop Disease Detection",
+    "execution": "CrewAI sequential process",
+    "llm": "Deterministic local test LLM",
+    "live_inference": false,
+    "live_web_research": false,
+    "synthetic_test_data": true,
+    "research": "RESEARCH BRIEF\nTopic: AI-Based Crop Disease Detection\n\nThe following evidence is synthetic test data, not verified research.\n\n1. CNN-Based Image Classification\nEvidence: TEST DATA: CNNs can be evaluated for image classification tasks using labelled image datasets.\nSource: https://example.com/sample-cnn\n\n2. Agricultural Image Analysis\nEvidence: TEST DATA: Image quality and dataset diversity are important considerations in agricultural image analysis.\nSource: https://example.com/sample-agriculture\n\nResearch limitation: These fixtures do not establish real-world\nmodel accuracy or clinical/agricultural effectiveness.",
+    "report": "# AI-Based Crop Disease Detection\n\n## Introduction\nThis report demonstrates a local multi-agent research workflow\nusing synthetic test fixtures.\n\n## Findings\n\n### 1. CNN-Based Image Classification\nTEST DATA: CNNs can be evaluated for image classification tasks using labelled image datasets.\nSource: https://example.com/sample-cnn\n\n### 2. Agricultural Image Analysis\nTEST DATA: Image quality and dataset diversity are important considerations in agricultural image analysis.\nSource: https://example.com/sample-agriculture\n\n## Conclusion\nThe test fixtures illustrate how evidence can be organized into\na structured report. They do not establish real-world performance.\n\n## References\n- Sample Source A - CNN-Based Image Classification: https://example.com/sample-cnn\n- Sample Source B - Agricultural Image Analysis: https://example.com/sample-agriculture\n\n**Disclaimer:** All evidence above is synthetic test data.",
+    "review": "REVIEW RESULT: PASS\n\nChecklist:\n- Title present: PASS\n- Findings present: PASS\n- Conclusion present: PASS\n- References present: PASS\n- Synthetic-data limitation disclosed: PASS\n\nReview scope: Scripted workflow demonstration.\nThis is not an independent factual or scientific validation.",
+    "crew_result": "REVIEW RESULT: PASS\n\nChecklist:\n- Title present: PASS\n- Findings present: PASS\n- Conclusion present: PASS\n- References present: PASS\n- Synthetic-data limitation disclosed: PASS\n\nReview scope: Scripted workflow demonstration.\nThis is not an independent factual or scientific validation."
+}
