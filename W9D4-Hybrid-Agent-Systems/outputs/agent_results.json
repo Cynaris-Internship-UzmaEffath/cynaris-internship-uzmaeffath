@@ -1,0 +1,23 @@
+[
+  {
+    "task_number": 1,
+    "task": "Find information about Bangalore population.",
+    "action": "web_search",
+    "observation": "SIMULATED SEARCH RESULT for 'Bangalore population': This is demonstration data, not live web information.",
+    "final_answer": "SIMULATED SEARCH RESULT for 'Bangalore population': This is demonstration data, not live web information."
+  },
+  {
+    "task_number": 2,
+    "task": "Calculate 123 multiplied by 456.",
+    "action": "calculator",
+    "observation": "56088",
+    "final_answer": "56088"
+  },
+  {
+    "task_number": 3,
+    "task": "Search for information about supervised learning.",
+    "action": "web_search",
+    "observation": "SIMULATED SEARCH RESULT for 'supervised learning': This is demonstration data, not live web information.",
+    "final_answer": "SIMULATED SEARCH RESULT for 'supervised learning': This is demonstration data, not live web information."
+  }
+]

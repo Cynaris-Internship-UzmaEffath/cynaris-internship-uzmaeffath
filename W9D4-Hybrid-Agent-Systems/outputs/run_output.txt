@@ -1,0 +1,53 @@
+CHAIN + MEMORY
+[
+  {
+    "turn": 1,
+    "question": "What is artificial intelligence?",
+    "answer": "Artificial intelligence enables machines to perform tasks that typically require human intelligence."
+  },
+  {
+    "turn": 2,
+    "question": "What is 25 multiplied by 16?",
+    "answer": "25 multiplied by 16 is 400."
+  },
+  {
+    "turn": 3,
+    "question": "Explain supervised learning.",
+    "answer": "Supervised learning trains a model using labelled examples."
+  },
+  {
+    "turn": 4,
+    "question": "What is the capital of Karnataka?",
+    "answer": "Bengaluru is the capital of Karnataka."
+  },
+  {
+    "turn": 5,
+    "question": "Summarise what we discussed earlier.",
+    "answer": "We discussed artificial intelligence, multiplication, supervised learning, and Karnataka."
+  }
+]
+
+AGENT RESULTS
+[
+  {
+    "task_number": 1,
+    "task": "Find information about Bangalore population.",
+    "action": "web_search",
+    "observation": "SIMULATED SEARCH RESULT for 'Bangalore population': This is demonstration data, not live web information.",
+    "final_answer": "SIMULATED SEARCH RESULT for 'Bangalore population': This is demonstration data, not live web information."
+  },
+  {
+    "task_number": 2,
+    "task": "Calculate 123 multiplied by 456.",
+    "action": "calculator",
+    "observation": "56088",
+    "final_answer": "56088"
+  },
+  {
+    "task_number": 3,
+    "task": "Search for information about supervised learning.",
+    "action": "web_search",
+    "observation": "SIMULATED SEARCH RESULT for 'supervised learning': This is demonstration data, not live web information.",
+    "final_answer": "SIMULATED SEARCH RESULT for 'supervised learning': This is demonstration data, not live web information."
+  }
+]
