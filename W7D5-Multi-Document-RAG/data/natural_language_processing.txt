@@ -1,0 +1,11 @@
+﻿Natural Language Processing
+
+Natural Language Processing (NLP) is a branch of artificial intelligence that enables computers to understand, interpret, and generate human language.
+
+Common NLP tasks include text classification, sentiment analysis, machine translation, named entity recognition, and text summarization.
+
+Tokenization divides text into smaller units such as words or sentences.
+
+Word embeddings represent words as numerical vectors that capture semantic relationships.
+
+NLP applications include chatbots, virtual assistants, search engines, spam detection, and language translation.

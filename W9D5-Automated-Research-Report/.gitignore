@@ -1,0 +1,8 @@
+﻿__pycache__/
+*.py[cod]
+.crewai/
+mlruns/
+mlflow.db
+.venv/
+.env
+*.log

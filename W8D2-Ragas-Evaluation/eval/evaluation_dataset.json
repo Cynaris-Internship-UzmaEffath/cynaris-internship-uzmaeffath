@@ -1,0 +1,62 @@
+[
+  {
+    "id": "Q1",
+    "question": "What enables machine learning systems to improve their performance?",
+    "reference": "Machine learning is a subset of AI that enables computers to learn patterns from data and improve performance without being explicitly programmed for every task.",
+    "source": "01_artificial_intelligence.pdf"
+  },
+  {
+    "id": "Q2",
+    "question": "What makes deep learning different from other machine learning approaches, and where is it commonly used?",
+    "reference": "Deep learning is a subset of machine learning that uses neural networks with multiple layers. It is commonly used in image recognition, speech processing, and natural language processing.",
+    "source": "01_artificial_intelligence.pdf"
+  },
+  {
+    "id": "Q3",
+    "question": "What are the possible units produced during tokenization?",
+    "reference": "Tokenization divides text into smaller units called tokens. These units may be words, subwords, or characters.",
+    "source": "02_natural_language_processing.pdf"
+  },
+  {
+    "id": "Q4",
+    "question": "How do transformer models understand relationships between words?",
+    "reference": "Transformer models use attention mechanisms to understand relationships between words in a sequence.",
+    "source": "02_natural_language_processing.pdf"
+  },
+  {
+    "id": "Q5",
+    "question": "What information does BM25 consider when ranking documents?",
+    "reference": "BM25 considers term frequency, inverse document frequency, and document length when ranking documents.",
+    "source": "03_information_retrieval.pdf"
+  },
+  {
+    "id": "Q6",
+    "question": "How does dense retrieval identify relevant documents?",
+    "reference": "Dense retrieval converts queries and documents into numerical vectors called embeddings and retrieves documents based on semantic similarity.",
+    "source": "03_information_retrieval.pdf"
+  },
+  {
+    "id": "Q7",
+    "question": "How do confidentiality, integrity, and availability differ?",
+    "reference": "Confidentiality ensures information is accessible only to authorized users. Integrity protects information from unauthorized modification. Availability ensures systems and data remain accessible when needed.",
+    "source": "04_cybersecurity.pdf"
+  },
+  {
+    "id": "Q8",
+    "question": "What is encryption, and what role does a cryptographic key play?",
+    "reference": "Encryption converts readable information into an encoded form using a cryptographic key.",
+    "source": "04_cybersecurity.pdf"
+  },
+  {
+    "id": "Q9",
+    "question": "How do IaaS, PaaS, and SaaS differ in the services they provide?",
+    "reference": "IaaS provides virtualized computing resources, PaaS provides an environment for application development and deployment, and SaaS provides ready-to-use software over the internet.",
+    "source": "05_cloud_computing.pdf"
+  },
+  {
+    "id": "Q10",
+    "question": "How does elasticity differ from scalability?",
+    "reference": "Scalability allows computing resources to increase or decrease based on demand, while elasticity automatically adjusts resources according to changing workloads.",
+    "source": "05_cloud_computing.pdf"
+  }
+]

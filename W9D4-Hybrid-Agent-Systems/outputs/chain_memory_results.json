@@ -1,0 +1,27 @@
+[
+  {
+    "turn": 1,
+    "question": "What is artificial intelligence?",
+    "answer": "Artificial intelligence enables machines to perform tasks that typically require human intelligence."
+  },
+  {
+    "turn": 2,
+    "question": "What is 25 multiplied by 16?",
+    "answer": "25 multiplied by 16 is 400."
+  },
+  {
+    "turn": 3,
+    "question": "Explain supervised learning.",
+    "answer": "Supervised learning trains a model using labelled examples."
+  },
+  {
+    "turn": 4,
+    "question": "What is the capital of Karnataka?",
+    "answer": "Bengaluru is the capital of Karnataka."
+  },
+  {
+    "turn": 5,
+    "question": "Summarise what we discussed earlier.",
+    "answer": "We discussed artificial intelligence, multiplication, supervised learning, and Karnataka."
+  }
+]

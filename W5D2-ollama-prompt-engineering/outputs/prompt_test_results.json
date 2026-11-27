@@ -1,0 +1,37 @@
+[
+  {
+    "model": "llama3.2:3b",
+    "prompt": "What is prompt engineering?",
+    "system_prompt": "You are a helpful AI/ML learning assistant for a computer science student.\nFollow these rules:\n1. Explain technical concepts in simple English.\n2. Use a short example whenever useful.\n3. Keep answers under 120 words.\n4. If a question is unclear, state your assumption.\n5. Do not invent facts or claim certainty when unsure.",
+    "response": "Prompt engineering is the process of designing and crafting high-quality text inputs, called \"prompts,\" to elicit specific responses from artificial intelligence (AI) models, such as language generators or chatbots.\n\nThink of it like asking a question to a librarian. You want a specific book, but you don't know the exact title. The librarian needs a clear and concise prompt to find the right book for you. Similarly, prompt engineering helps AI models understand what you want to achieve and provide a relevant response.\n\nExample: Instead of saying \"write a story about a cat,\" a well-crafted prompt might be \"write a 100-word story about a curious cat exploring a forest.\"",
+    "response_time_seconds": 11.01
+  },
+  {
+    "model": "llama3.2:3b",
+    "prompt": "Explain the difference between supervised and unsupervised learning.",
+    "system_prompt": "You are a helpful AI/ML learning assistant for a computer science student.\nFollow these rules:\n1. Explain technical concepts in simple English.\n2. Use a short example whenever useful.\n3. Keep answers under 120 words.\n4. If a question is unclear, state your assumption.\n5. Do not invent facts or claim certainty when unsure.",
+    "response": "Imagine you're trying to teach a robot to recognize different types of animals.\n\n**Supervised Learning**: You show the robot many pictures of animals, and for each picture, you tell the robot \"this is a cat\" or \"this is a dog\". The robot learns to recognize the animals based on the labels you provide. The goal is to make the robot predict the correct label for a new, unseen picture.\n\n**Unsupervised Learning**: You show the robot many pictures of animals, but you don't tell it which ones are cats and which ones are dogs. The robot learns to group similar pictures together (e.g., all the cats together) without any labels. The goal is to discover patterns or structure in the data.\n\nThink of supervised learning as \"teaching\" the robot, and unsupervised learning as \"showing\" the robot the data and letting it figure it out on its own.",
+    "response_time_seconds": 15.89
+  },
+  {
+    "model": "llama3.2:3b",
+    "prompt": "What is quantisation in a large language model?",
+    "system_prompt": "You are a helpful AI/ML learning assistant for a computer science student.\nFollow these rules:\n1. Explain technical concepts in simple English.\n2. Use a short example whenever useful.\n3. Keep answers under 120 words.\n4. If a question is unclear, state your assumption.\n5. Do not invent facts or claim certainty when unsure.",
+    "response": "In a large language model, quantization is a technique to reduce the number of bits used to represent model weights and activations. This is done to:\n\n1. Reduce memory usage\n2. Improve inference speed\n3. Lower power consumption\n\nThink of it like a phone with a limited number of storage slots. In a large language model, the \"phone\" has a huge amount of data (weights and activations). Quantization is like using smaller \"slots\" to store the data, but still keeping the same information.\n\nFor example, a 16-bit float can be represented with 16 bits, but a 4-bit quantized float can be represented with just 4 bits. This reduces the memory usage, but might slightly affect the model's accuracy.",
+    "response_time_seconds": 14.12
+  },
+  {
+    "model": "llama3.2:3b",
+    "prompt": "Why can a local LLM be useful for cybersecurity projects?",
+    "system_prompt": "You are a helpful AI/ML learning assistant for a computer science student.\nFollow these rules:\n1. Explain technical concepts in simple English.\n2. Use a short example whenever useful.\n3. Keep answers under 120 words.\n4. If a question is unclear, state your assumption.\n5. Do not invent facts or claim certainty when unsure.",
+    "response": "A local Large Language Model (LLM) can be useful for cybersecurity projects because it allows for:\n\n1. **Data privacy**: No data needs to be sent over the internet, reducing the risk of data breaches.\n2. **Faster analysis**: Local models can process data quickly, enabling faster analysis and response to security threats.\n3. **Low latency**: Since data doesn't need to be transmitted, responses are faster, which is critical in cybersecurity where timely action is often necessary.\n\nFor example, a local LLM can be used to analyze network logs, identify potential threats, and generate security reports, all without exposing sensitive data to the internet.",
+    "response_time_seconds": 11.94
+  },
+  {
+    "model": "llama3.2:3b",
+    "prompt": "Explain the difference between a system prompt and a user prompt.",
+    "system_prompt": "You are a helpful AI/ML learning assistant for a computer science student.\nFollow these rules:\n1. Explain technical concepts in simple English.\n2. Use a short example whenever useful.\n3. Keep answers under 120 words.\n4. If a question is unclear, state your assumption.\n5. Do not invent facts or claim certainty when unsure.",
+    "response": "In the context of computer science, a **system prompt** is a message displayed by the computer to the user, asking for input or confirmation. Examples include \"Enter your password\" or \"Do you want to save changes?\".\n\nA **user prompt**, on the other hand, is a message that asks the user to perform a specific task or action. It's a request from the user to the system. Examples include \"What is your name?\" or \"What file do you want to open?\".\n\nThink of it like a conversation: the system prompt is like the computer saying \"Hello, what's your name?\", while the user prompt is like the user saying \"I want to know my name\".",
+    "response_time_seconds": 12.9
+  }
+]

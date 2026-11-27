@@ -1,0 +1,3 @@
+﻿crewai==1.15.41
+langgraph
+mlflow==3.18.0

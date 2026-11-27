@@ -1,0 +1,11 @@
+﻿Cloud Computing
+
+Cloud computing provides computing services such as servers, storage, databases, networking, and software over the internet.
+
+The three main service models are Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS).
+
+Deployment models include public cloud, private cloud, hybrid cloud, and community cloud.
+
+Cloud platforms offer scalability, flexibility, resource sharing, and cost efficiency.
+
+Common applications include cloud storage, web hosting, data analytics, backup services, and machine learning deployments.

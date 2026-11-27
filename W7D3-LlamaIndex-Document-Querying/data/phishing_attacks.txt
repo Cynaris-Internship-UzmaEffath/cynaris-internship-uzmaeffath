@@ -1,0 +1,3 @@
+﻿Phishing Attacks and Prevention
+
+Phishing is a cyberattack in which attackers use fraudulent emails, messages, or websites to trick users into revealing sensitive information. Common warning signs include suspicious links, unexpected attachments, spelling mistakes, and urgent requests for passwords or financial details. Users can reduce phishing risks by verifying senders, avoiding unknown links, enabling multi-factor authentication, and reporting suspicious messages.

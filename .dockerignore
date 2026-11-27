@@ -1,0 +1,6 @@
+.venv/
+.git/
+__pycache__/
+*.pyc
+W8D3-Haystack-API/*.log
+W7D2-Haystack-Retrieval/__pycache__/

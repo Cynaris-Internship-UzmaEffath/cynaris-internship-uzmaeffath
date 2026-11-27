@@ -1,0 +1,14 @@
+{
+    "What is machine learning and how does it help AI?": {
+        "llama3.2:3b": "Machine learning is a technique where computers learn patterns from data. It helps AI by allowing computers to learn complex patterns, such as those found in natural language, without being explicitly programmed.",
+        "qwen2.5:3b": "Machine learning is a technique that helps computers learn patterns from data. It aids AI by enabling systems to improve their performance on a specific task over time by using algorithms that allow them to learn from and make predictions on data without being explicitly programmed."
+    },
+    "How does ChromaDB work with Ollama in a RAG system?": {
+        "llama3.2:3b": "According to the PDF, ChromaDB is used to store embeddings and retrieve documents based on semantic similarity. In a RAG system with Ollama, ChromaDB is used to retrieve relevant document chunks before passing context to a language model.",
+        "qwen2.5:3b": "In a RAG system, ChromaDB works with Ollama by storing embeddings and retrieving relevant document chunks based on semantic similarity, which are then used to pass to a language model."
+    },
+    "How does intrusion detection help cybersecurity?": {
+        "llama3.2:3b": "According to the PDF, Intrusion detection identifies suspicious network activity, which is a part of Cybersecurity efforts.",
+        "qwen2.5:3b": "Intrusion detection helps cybersecurity by identifying suspicious network activity."
+    }
+}
