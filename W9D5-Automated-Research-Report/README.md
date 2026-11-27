@@ -22,3 +22,9 @@ Activate the virtual environment and run:
 
 ```bash
 python research_agent.py
+
+## Validation
+- Automated test: `python -m unittest discover -s tests -v`
+- Result: 1 test passed.
+- Report generation, analysis, and evaluation checks completed successfully.
+- Execution uses a deterministic local mock LLM; no Ollama or external API key is required.
